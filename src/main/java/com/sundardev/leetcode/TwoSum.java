@@ -17,7 +17,7 @@ public class TwoSum {
         assert ((result[0] == expectedIndex1 && result[1] == expectedIndex2) || (result[0] == expectedIndex2 && result[1] == expectedIndex1));
     }
 
-    static
+    private static
     class Solution {
         public int[] twoSum(final int[] nums, int target) {
             Map<Integer, Integer> numIndexMap = new HashMap<>(100);
